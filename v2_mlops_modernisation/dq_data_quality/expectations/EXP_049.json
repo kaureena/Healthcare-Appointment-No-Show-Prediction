@@ -1,0 +1,10 @@
+{
+  "expectation_id": "EXP_049",
+  "table": "fact_appointments",
+  "expectation_type": "expect_non_null",
+  "kwargs": {
+    "column": "deprivation_index"
+  },
+  "severity": "medium",
+  "description": "FACT deprivation_index should not be null."
+}

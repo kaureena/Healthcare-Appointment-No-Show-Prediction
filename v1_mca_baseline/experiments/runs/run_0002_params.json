@@ -1,0 +1,5 @@
+{
+  "model": "GradientBoosting",
+  "n_estimators": "default",
+  "random_state": 42
+}

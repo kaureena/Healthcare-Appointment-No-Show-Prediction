@@ -1,0 +1,19 @@
+{
+  "expectation_id": "EXP_016",
+  "table": "staged_appointments",
+  "expectation_type": "expect_required_columns",
+  "kwargs": {
+    "columns": [
+      "appointment_id",
+      "patient_id",
+      "clinic_id",
+      "neighbourhood_id",
+      "age",
+      "lead_time_days",
+      "sms_reminder_sent",
+      "no_show_label"
+    ]
+  },
+  "severity": "high",
+  "description": "STAGED must contain cleaned columns required for modelling."
+}

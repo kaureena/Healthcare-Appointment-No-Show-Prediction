@@ -1,0 +1,15 @@
+{
+  "expectation_id": "EXP_087",
+  "table": "dim_date",
+  "expectation_type": "expect_required_columns",
+  "kwargs": {
+    "columns": [
+      "date_key",
+      "appointment_dow",
+      "year",
+      "month"
+    ]
+  },
+  "severity": "high",
+  "description": "dim_date must include date attributes."
+}

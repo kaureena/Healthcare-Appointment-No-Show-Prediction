@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_082",
+  "table": "dim_neighbourhood",
+  "expectation_type": "expect_unique",
+  "kwargs": {
+    "columns": [
+      "neighbourhood_id"
+    ]
+  },
+  "severity": "high",
+  "description": "dim_neighbourhood unique id."
+}

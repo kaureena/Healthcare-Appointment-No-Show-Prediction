@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_057",
+  "table": "fact_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "appointment_is_weekend",
+    "min": 0,
+    "max": 1
+  },
+  "severity": "medium",
+  "description": "FACT appointment_is_weekend must be 0/1."
+}

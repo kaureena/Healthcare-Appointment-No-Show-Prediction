@@ -1,0 +1,7 @@
+category,hours,examples
+DATA,8.1,"generator, reference masters, contracts"
+ETL,11.1,"staging, curated schema, warehouse load"
+DQ,8.1,"engine, expectations, rules docs, report"
+ML,9.1,"training pipeline, artifacts, registry, plots"
+MON,8.1,"drift PSI, SLA, latency simulation, alerts"
+DOC,6.0,"model card, architecture, pbix spec docs"

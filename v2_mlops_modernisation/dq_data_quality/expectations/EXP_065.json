@@ -1,0 +1,10 @@
+{
+  "expectation_id": "EXP_065",
+  "table": "fact_appointments",
+  "expectation_type": "expect_non_negative",
+  "kwargs": {
+    "column": "prior_show_count"
+  },
+  "severity": "medium",
+  "description": "FACT prior_show_count must be non-negative."
+}

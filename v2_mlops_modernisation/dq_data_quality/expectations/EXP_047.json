@@ -1,0 +1,10 @@
+{
+  "expectation_id": "EXP_047",
+  "table": "fact_appointments",
+  "expectation_type": "expect_non_null",
+  "kwargs": {
+    "column": "lead_time_days"
+  },
+  "severity": "medium",
+  "description": "FACT lead_time_days should not be null."
+}

@@ -1,0 +1,8 @@
+flowchart TB
+  R[Risk Identified] --> A[Assess Severity + Likelihood]
+  A --> M[Mitigation Plan]
+  M --> O[Owner Assigned]
+  O --> T[Track in Risk Log]
+  T --> C{Closed?}
+  C -- No --> T
+  C -- Yes --> L[Lessons Learned]

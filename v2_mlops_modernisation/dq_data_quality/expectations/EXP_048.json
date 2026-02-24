@@ -1,0 +1,10 @@
+{
+  "expectation_id": "EXP_048",
+  "table": "fact_appointments",
+  "expectation_type": "expect_non_null",
+  "kwargs": {
+    "column": "no_show_label"
+  },
+  "severity": "medium",
+  "description": "FACT no_show_label should not be null."
+}

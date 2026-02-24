@@ -1,0 +1,10 @@
+{
+  "expectation_id": "EXP_005",
+  "table": "raw_appointments",
+  "expectation_type": "expect_non_null",
+  "kwargs": {
+    "column": "neighbourhood_id"
+  },
+  "severity": "high",
+  "description": "RAW neighbourhood_id should not be null."
+}

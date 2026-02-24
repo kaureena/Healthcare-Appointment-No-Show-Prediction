@@ -1,0 +1,24 @@
+{
+  "expectation_id": "EXP_079",
+  "table": "dim_clinic",
+  "expectation_type": "expect_in_set",
+  "kwargs": {
+    "column": "clinic_id",
+    "allowed_values": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12"
+    ]
+  },
+  "severity": "high",
+  "description": "dim_clinic clinic_id must match reference master."
+}

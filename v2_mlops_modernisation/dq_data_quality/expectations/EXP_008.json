@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_008",
+  "table": "raw_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "age",
+    "min": 0,
+    "max": 110
+  },
+  "severity": "high",
+  "description": "RAW age should be within plausible range (0-110)."
+}

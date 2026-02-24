@@ -1,0 +1,13 @@
+clinic_id,clinic_type,daily_capacity,clinic_region
+C01,Specialty Center,150,South
+C02,Specialty Center,180,South
+C03,Community Clinic,80,Central
+C04,Community Clinic,80,West
+C05,Primary Care,100,Central
+C06,Community Clinic,120,West
+C07,Community Clinic,100,West
+C08,Community Clinic,150,North
+C09,Primary Care,150,West
+C10,Specialty Center,120,North
+C11,Primary Care,100,South
+C12,Primary Care,80,West

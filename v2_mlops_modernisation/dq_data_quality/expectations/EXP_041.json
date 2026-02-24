@@ -1,0 +1,20 @@
+{
+  "expectation_id": "EXP_041",
+  "table": "fact_appointments",
+  "expectation_type": "expect_required_columns",
+  "kwargs": {
+    "columns": [
+      "appointment_id",
+      "date_key",
+      "patient_id",
+      "clinic_id",
+      "neighbourhood_id",
+      "lead_time_days",
+      "sms_reminder_sent",
+      "no_show_label",
+      "deprivation_index"
+    ]
+  },
+  "severity": "high",
+  "description": "FACT must include keys + measures for ML/BI."
+}

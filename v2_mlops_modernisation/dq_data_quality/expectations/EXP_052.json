@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_052",
+  "table": "fact_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "deprivation_index",
+    "min": 0,
+    "max": 1
+  },
+  "severity": "high",
+  "description": "FACT deprivation_index must be in [0,1]."
+}

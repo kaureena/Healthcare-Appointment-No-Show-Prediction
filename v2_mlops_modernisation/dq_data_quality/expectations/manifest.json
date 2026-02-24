@@ -1,0 +1,21 @@
+{
+  "generated_on": "2026-02-09",
+  "count": 90,
+  "tables_covered": [
+    "dim_clinic",
+    "dim_date",
+    "dim_neighbourhood",
+    "dim_patient",
+    "fact_appointments",
+    "raw_appointments",
+    "staged_appointments"
+  ],
+  "expectation_types": [
+    "expect_between",
+    "expect_in_set",
+    "expect_non_negative",
+    "expect_non_null",
+    "expect_required_columns",
+    "expect_unique"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "expectation_id": "EXP_068",
+  "table": "fact_appointments",
+  "expectation_type": "expect_in_set",
+  "kwargs": {
+    "column": "gender",
+    "allowed_values": [
+      "F",
+      "M"
+    ]
+  },
+  "severity": "low",
+  "description": "FACT gender must be allowed."
+}

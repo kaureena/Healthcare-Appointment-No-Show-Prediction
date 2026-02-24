@@ -1,0 +1,4 @@
+run_id,date,command,outputs,status,notes
+V1-EDA-001,06/04/2013,python v1_mca_baseline/scripts/run_eda.py,outputs/figures/eda_*; outputs/tables/no_show_by_*,success,Generated EDA breakdowns
+V1-ML-001,10/04/2013,python v1_mca_baseline/scripts/train_baselines.py,model_metrics_comparison.csv; ROC/PR/calibration/lift plots,success,Trained LR + GB
+V1-REP-001,12/04/2013,python v1_mca_baseline/scripts/generate_v1_report.py,outputs/html/v1_quick_report.html,success,Generated HTML summary

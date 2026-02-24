@@ -1,0 +1,9 @@
+flowchart LR
+  CUR[Curated fact_appointments] --> FE[Feature Engineering]
+  FE --> SPLIT[Time Split]
+  SPLIT --> TRAIN[Train Model]
+  TRAIN --> EVAL[Evaluate]
+  EVAL --> MET[model_metrics.json]
+  EVAL --> PLOTS[ROC/PR/CM plots]
+  TRAIN --> ART[Model Artifact (.joblib)]
+  ART --> REG[Model Registry CSV]

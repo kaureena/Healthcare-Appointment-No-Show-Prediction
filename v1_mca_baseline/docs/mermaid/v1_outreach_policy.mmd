@@ -1,0 +1,6 @@
+flowchart TB
+    P[Predicted risk score] --> B{Risk band}
+    B -->|Low| L[No action / passive reminder]
+    B -->|Medium| M[SMS reminder]
+    B -->|High| H[SMS + phone call attempt]
+    B -->|Critical| C[Call + reschedule offer]

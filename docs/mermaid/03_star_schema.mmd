@@ -1,0 +1,19 @@
+erDiagram
+  FACT_APPOINTMENTS }o--|| DIM_PATIENT : has
+  FACT_APPOINTMENTS }o--|| DIM_CLINIC : occurs_at
+  FACT_APPOINTMENTS }o--|| DIM_NEIGHBOURHOOD : located_in
+  FACT_APPOINTMENTS }o--|| DIM_DATE : scheduled_on
+
+  FACT_APPOINTMENTS {
+    string appointment_id PK
+    string patient_id FK
+    string clinic_id FK
+    string neighbourhood_id FK
+    date appointment_date FK
+    int lead_time_days
+    bool sms_reminder_sent
+    int prior_no_show_count
+    bool no_show_label
+    float predicted_no_show_proba
+    string risk_band
+  }

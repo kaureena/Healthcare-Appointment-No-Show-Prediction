@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_033",
+  "table": "staged_appointments",
+  "expectation_type": "expect_unique",
+  "kwargs": {
+    "columns": [
+      "appointment_id"
+    ]
+  },
+  "severity": "high",
+  "description": "STAGED appointment_id must be unique after dedupe."
+}

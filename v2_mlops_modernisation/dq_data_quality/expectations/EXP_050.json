@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_050",
+  "table": "fact_appointments",
+  "expectation_type": "expect_unique",
+  "kwargs": {
+    "columns": [
+      "appointment_id"
+    ]
+  },
+  "severity": "high",
+  "description": "FACT appointment_id must be unique."
+}

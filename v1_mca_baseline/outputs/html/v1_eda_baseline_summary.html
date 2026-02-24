@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>V1 EDA & Baseline Summary</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 28px; }
+h1 { margin-bottom: 6px; }
+.small { color: #666; }
+.card { border: 1px solid #ddd; border-radius: 10px; padding: 14px; margin: 12px 0; }
+ul { margin: 6px 0 0 18px; }
+</style>
+</head>
+<body>
+<h1>V1 EDA & Baseline Summary</h1>
+<div class="small">Generated from synthetic sample: 12000 rows. Build timestamp: 2026-02-09T22:07:51</div>
+
+<div class="card">
+<h2>Top EDA artifacts</h2>
+<ul>
+<li>No-show by booking channel: <code>outputs/figures/eda_no_show_by_booking_channel.png</code></li>
+<li>Lead time and prior no-show signal: <code>outputs/figures/eda_no_show_vs_prior_no_show_count.png</code></li>
+<li>Daily trend: <code>outputs/figures/eda_no_show_daily_timeseries.png</code></li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Baseline model comparison</h2>
+<p>Compared Logistic Regression and Gradient Boosting using the same feature set.</p>
+<ul>
+<li>Metrics table: <code>outputs/tables/model_metrics_comparison.csv</code></li>
+<li>ROC curve: <code>outputs/figures/model_roc_curve_best.png</code></li>
+<li>Calibration: <code>outputs/figures/model_calibration_curve.png</code></li>
+<li>Lift: <code>outputs/figures/model_lift_curve.png</code></li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Fairness slice check</h2>
+<p>Slice metrics were computed for gender and region (n≥50 per slice) at threshold 0.35.</p>
+<ul>
+<li>Slice table: <code>outputs/tables/fairness_slice_metrics.csv</code></li>
+<li>Plot: <code>outputs/figures/fairness_gender_true_vs_outreach.png</code></li>
+</ul>
+</div>
+
+</body>
+</html>

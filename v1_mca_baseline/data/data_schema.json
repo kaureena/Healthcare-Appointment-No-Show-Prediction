@@ -1,0 +1,156 @@
+{
+  "dataset": "staged_sample.csv",
+  "row_count": 12000,
+  "columns": [
+    {
+      "name": "appointment_id",
+      "dtype": "object",
+      "example": "cee050f3-e327-4b15-af52-40a1cedce859"
+    },
+    {
+      "name": "patient_id",
+      "dtype": "object",
+      "example": "P01507"
+    },
+    {
+      "name": "clinic_id",
+      "dtype": "object",
+      "example": "C03"
+    },
+    {
+      "name": "neighbourhood_id",
+      "dtype": "object",
+      "example": "N028"
+    },
+    {
+      "name": "gender",
+      "dtype": "object",
+      "example": "F"
+    },
+    {
+      "name": "age",
+      "dtype": "int64",
+      "example": "42"
+    },
+    {
+      "name": "age_band",
+      "dtype": "object",
+      "example": "30-44"
+    },
+    {
+      "name": "chronic_conditions_count",
+      "dtype": "int64",
+      "example": "1"
+    },
+    {
+      "name": "disability_flag",
+      "dtype": "int64",
+      "example": "0"
+    },
+    {
+      "name": "appointment_datetime",
+      "dtype": "object",
+      "example": "2026-01-28 01:29:14"
+    },
+    {
+      "name": "booking_datetime",
+      "dtype": "object",
+      "example": "2026-01-14 07:29:14"
+    },
+    {
+      "name": "appointment_date",
+      "dtype": "object",
+      "example": "2026-01-28"
+    },
+    {
+      "name": "appointment_dow",
+      "dtype": "object",
+      "example": "Wednesday"
+    },
+    {
+      "name": "appointment_hour",
+      "dtype": "int64",
+      "example": "1"
+    },
+    {
+      "name": "appointment_is_weekend",
+      "dtype": "int64",
+      "example": "0"
+    },
+    {
+      "name": "lead_time_days",
+      "dtype": "int64",
+      "example": "14"
+    },
+    {
+      "name": "lead_time_band",
+      "dtype": "object",
+      "example": "8-14"
+    },
+    {
+      "name": "appointment_type",
+      "dtype": "object",
+      "example": "Lab"
+    },
+    {
+      "name": "booking_channel",
+      "dtype": "object",
+      "example": "Referral"
+    },
+    {
+      "name": "sms_reminder_sent",
+      "dtype": "int64",
+      "example": "0"
+    },
+    {
+      "name": "prior_no_show_count",
+      "dtype": "int64",
+      "example": "0"
+    },
+    {
+      "name": "prior_show_count",
+      "dtype": "int64",
+      "example": "3"
+    },
+    {
+      "name": "deprivation_index",
+      "dtype": "float64",
+      "example": "0.519"
+    },
+    {
+      "name": "region",
+      "dtype": "object",
+      "example": "South"
+    },
+    {
+      "name": "lat",
+      "dtype": "float64",
+      "example": "22.481804"
+    },
+    {
+      "name": "lon",
+      "dtype": "float64",
+      "example": "74.160221"
+    },
+    {
+      "name": "clinic_type",
+      "dtype": "object",
+      "example": "Community Clinic"
+    },
+    {
+      "name": "daily_capacity",
+      "dtype": "int64",
+      "example": "80"
+    },
+    {
+      "name": "clinic_region",
+      "dtype": "object",
+      "example": "Central"
+    },
+    {
+      "name": "no_show_label",
+      "dtype": "int64",
+      "example": "1"
+    }
+  ]
+}

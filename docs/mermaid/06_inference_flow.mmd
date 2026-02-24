@@ -1,0 +1,11 @@
+sequenceDiagram
+  participant Client as Client
+  participant API as FastAPI
+  participant Model as Model Artifact
+  participant WH as Warehouse
+
+  Client->>API: POST /predict (appointment features)
+  API->>Model: load + predict_proba
+  Model-->>API: risk score
+  API->>WH: (optional) store prediction
+  API-->>Client: {predicted_no_show_proba, risk_band}

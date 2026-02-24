@@ -1,0 +1,8 @@
+flowchart LR
+  RAW[raw/appointments_raw.csv] --> STG[staged/appointments_staged.csv]
+  STG --> CUR[fact_appointments + dims]
+  CUR --> WH[(SQLite Warehouse)]
+  CUR --> DQ[DQ Reports]
+  CUR --> ML[Training Dataset]
+  ML --> PRED[Predictions + Risk Bands]
+  PRED --> MON[Monitoring Snapshots]

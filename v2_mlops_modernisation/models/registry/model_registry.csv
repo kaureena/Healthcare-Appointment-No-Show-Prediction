@@ -1,0 +1,2 @@
+run_id,timestamp_utc,model,roc_auc,avg_precision,precision_at_0.5,recall_at_0.5,f1_at_0.5,split_date,n_train,n_test,artifact_path
+run-20260209-165919,2026-02-09T16:59:19.243016Z,LogisticRegression(saga)+OHE,0.6192,0.4535,0.5376,0.1394,0.2214,2026-01-15,43917,10268,/mnt/data/Healthcare-Appointment-No-Show-Prediction/v2_mlops_modernisation/models/artifacts/best_model.joblib

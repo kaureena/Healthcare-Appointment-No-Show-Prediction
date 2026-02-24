@@ -1,0 +1,734 @@
+<html><head><meta charset='utf-8'><title>DQ Report</title></head><body style='font-family: Arial, sans-serif; background:#0b1220; color:#e6edf7;'><h1>Data Quality Report</h1><p>Generated: 2026-02-09T16:52:46.987421Z</p><div style='background:#111a2e;padding:12px;border-radius:10px;border:1px solid #22304a;'><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>table</th>
+      <th>expectation_id</th>
+      <th>type</th>
+      <th>severity</th>
+      <th>passed</th>
+      <th>details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dim_clinic</td>
+      <td>EXP_077</td>
+      <td>expect_required_columns</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"missing_columns": []}</td>
+    </tr>
+    <tr>
+      <td>dim_clinic</td>
+      <td>EXP_078</td>
+      <td>expect_unique</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"duplicate_rows": 0}</td>
+    </tr>
+    <tr>
+      <td>dim_clinic</td>
+      <td>EXP_079</td>
+      <td>expect_in_set</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>dim_clinic</td>
+      <td>EXP_080</td>
+      <td>expect_between</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 50, "max": 500}</td>
+    </tr>
+    <tr>
+      <td>dim_date</td>
+      <td>EXP_087</td>
+      <td>expect_required_columns</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"missing_columns": []}</td>
+    </tr>
+    <tr>
+      <td>dim_date</td>
+      <td>EXP_088</td>
+      <td>expect_unique</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"duplicate_rows": 0}</td>
+    </tr>
+    <tr>
+      <td>dim_date</td>
+      <td>EXP_090</td>
+      <td>expect_between</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 1, "max": 53}</td>
+    </tr>
+    <tr>
+      <td>dim_date</td>
+      <td>EXP_089</td>
+      <td>expect_between</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 1, "max": 12}</td>
+    </tr>
+    <tr>
+      <td>dim_neighbourhood</td>
+      <td>EXP_081</td>
+      <td>expect_required_columns</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"missing_columns": []}</td>
+    </tr>
+    <tr>
+      <td>dim_neighbourhood</td>
+      <td>EXP_082</td>
+      <td>expect_unique</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"duplicate_rows": 0}</td>
+    </tr>
+    <tr>
+      <td>dim_neighbourhood</td>
+      <td>EXP_083</td>
+      <td>expect_in_set</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>dim_neighbourhood</td>
+      <td>EXP_084</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+    <tr>
+      <td>dim_neighbourhood</td>
+      <td>EXP_085</td>
+      <td>expect_between</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 20, "max": 25}</td>
+    </tr>
+    <tr>
+      <td>dim_neighbourhood</td>
+      <td>EXP_086</td>
+      <td>expect_between</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 70, "max": 75}</td>
+    </tr>
+    <tr>
+      <td>dim_patient</td>
+      <td>EXP_071</td>
+      <td>expect_required_columns</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"missing_columns": []}</td>
+    </tr>
+    <tr>
+      <td>dim_patient</td>
+      <td>EXP_072</td>
+      <td>expect_unique</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"duplicate_rows": 0}</td>
+    </tr>
+    <tr>
+      <td>dim_patient</td>
+      <td>EXP_074</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 110}</td>
+    </tr>
+    <tr>
+      <td>dim_patient</td>
+      <td>EXP_075</td>
+      <td>expect_in_set</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>dim_patient</td>
+      <td>EXP_076</td>
+      <td>expect_between</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+    <tr>
+      <td>dim_patient</td>
+      <td>EXP_073</td>
+      <td>expect_in_set</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_041</td>
+      <td>expect_required_columns</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"missing_columns": []}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_042</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_043</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_045</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_046</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_050</td>
+      <td>expect_unique</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"duplicate_rows": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_051</td>
+      <td>expect_non_negative</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"negative_count": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_052</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_053</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 110}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_054</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_055</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_058</td>
+      <td>expect_in_set</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_059</td>
+      <td>expect_in_set</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_062</td>
+      <td>expect_in_set</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_063</td>
+      <td>expect_in_set</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_066</td>
+      <td>expect_between</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 5}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_067</td>
+      <td>expect_between</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_068</td>
+      <td>expect_in_set</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_069</td>
+      <td>expect_between</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 50, "max": 500}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_070</td>
+      <td>expect_between</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 365}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_044</td>
+      <td>expect_non_null</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_047</td>
+      <td>expect_non_null</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_048</td>
+      <td>expect_non_null</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_049</td>
+      <td>expect_non_null</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_056</td>
+      <td>expect_between</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 23}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_057</td>
+      <td>expect_between</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_060</td>
+      <td>expect_in_set</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_061</td>
+      <td>expect_in_set</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_064</td>
+      <td>expect_non_negative</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"negative_count": 0}</td>
+    </tr>
+    <tr>
+      <td>fact_appointments</td>
+      <td>EXP_065</td>
+      <td>expect_non_negative</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"negative_count": 0}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_008</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>FAIL</td>
+      <td>{"out_of_range_count": 275, "min": 0, "max": 110}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_013</td>
+      <td>expect_in_set</td>
+      <td>high</td>
+      <td>FAIL</td>
+      <td>{"invalid_count": 385, "sample_invalid_values": ["N999", "N999", "N999", "N999", "N999"]}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_014</td>
+      <td>expect_unique</td>
+      <td>high</td>
+      <td>FAIL</td>
+      <td>{"duplicate_rows": 219}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_001</td>
+      <td>expect_required_columns</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"missing_columns": []}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_002</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_003</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_004</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_005</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_006</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_007</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_012</td>
+      <td>expect_in_set</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_009</td>
+      <td>expect_in_set</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_010</td>
+      <td>expect_in_set</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_011</td>
+      <td>expect_in_set</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>raw_appointments</td>
+      <td>EXP_015</td>
+      <td>expect_non_negative</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"negative_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_016</td>
+      <td>expect_required_columns</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"missing_columns": []}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_017</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_019</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_020</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_024</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_025</td>
+      <td>expect_non_null</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_026</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 110}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_027</td>
+      <td>expect_non_negative</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"negative_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_028</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_029</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_031</td>
+      <td>expect_in_set</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_032</td>
+      <td>expect_in_set</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_033</td>
+      <td>expect_unique</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"duplicate_rows": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_036</td>
+      <td>expect_between</td>
+      <td>high</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_039</td>
+      <td>expect_in_set</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_040</td>
+      <td>expect_in_set</td>
+      <td>low</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_018</td>
+      <td>expect_non_null</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_021</td>
+      <td>expect_non_null</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_022</td>
+      <td>expect_non_null</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_023</td>
+      <td>expect_non_null</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"null_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_030</td>
+      <td>expect_in_set</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"invalid_count": 0, "sample_invalid_values": []}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_034</td>
+      <td>expect_non_negative</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"negative_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_035</td>
+      <td>expect_non_negative</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"negative_count": 0}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_037</td>
+      <td>expect_between</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 23}</td>
+    </tr>
+    <tr>
+      <td>staged_appointments</td>
+      <td>EXP_038</td>
+      <td>expect_between</td>
+      <td>medium</td>
+      <td>PASS</td>
+      <td>{"out_of_range_count": 0, "min": 0, "max": 1}</td>
+    </tr>
+  </tbody>
+</table></div></body></html>

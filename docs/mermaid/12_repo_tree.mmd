@@ -1,0 +1,12 @@
+flowchart TB
+  ROOT[Repo Root] --> DOCS[docs/]
+  ROOT --> V1[v1_mca_baseline/]
+  ROOT --> V2[v2_mlops_modernisation/]
+  DOCS --> MER[mermaid/]
+  DOCS --> DASH[dashboards/]
+  V2 --> ETL[etl/]
+  V2 --> DQ[dq_data_quality/]
+  V2 --> ML[ml/]
+  V2 --> MON[monitoring/]
+  V2 --> API[api/]
+  V2 --> WH[warehouse/]

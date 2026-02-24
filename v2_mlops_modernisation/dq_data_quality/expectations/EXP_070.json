@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_070",
+  "table": "fact_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "lead_time_days",
+    "min": 0,
+    "max": 365
+  },
+  "severity": "low",
+  "description": "FACT lead_time_days should be within 0-365 for this synthetic generator."
+}

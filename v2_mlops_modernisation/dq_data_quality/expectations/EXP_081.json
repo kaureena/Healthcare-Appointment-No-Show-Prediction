@@ -1,0 +1,16 @@
+{
+  "expectation_id": "EXP_081",
+  "table": "dim_neighbourhood",
+  "expectation_type": "expect_required_columns",
+  "kwargs": {
+    "columns": [
+      "neighbourhood_id",
+      "region",
+      "lat",
+      "lon",
+      "deprivation_index"
+    ]
+  },
+  "severity": "high",
+  "description": "dim_neighbourhood must include master columns."
+}

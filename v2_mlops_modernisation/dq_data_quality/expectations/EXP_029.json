@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_029",
+  "table": "staged_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "no_show_label",
+    "min": 0,
+    "max": 1
+  },
+  "severity": "high",
+  "description": "no_show_label must be 0/1."
+}

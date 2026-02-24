@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_074",
+  "table": "dim_patient",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "age",
+    "min": 0,
+    "max": 110
+  },
+  "severity": "high",
+  "description": "dim_patient age in range."
+}

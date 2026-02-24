@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_026",
+  "table": "staged_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "age",
+    "min": 0,
+    "max": 110
+  },
+  "severity": "high",
+  "description": "STAGED age clipped into 0-110."
+}

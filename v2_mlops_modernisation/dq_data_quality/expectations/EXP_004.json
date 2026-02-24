@@ -1,0 +1,10 @@
+{
+  "expectation_id": "EXP_004",
+  "table": "raw_appointments",
+  "expectation_type": "expect_non_null",
+  "kwargs": {
+    "column": "clinic_id"
+  },
+  "severity": "high",
+  "description": "RAW clinic_id should not be null."
+}

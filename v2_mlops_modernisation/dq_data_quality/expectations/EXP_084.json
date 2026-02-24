@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_084",
+  "table": "dim_neighbourhood",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "deprivation_index",
+    "min": 0,
+    "max": 1
+  },
+  "severity": "high",
+  "description": "deprivation_index in [0,1]."
+}

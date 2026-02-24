@@ -1,0 +1,4 @@
+run_id,model,split,notes,status
+run_0001,LogisticRegression,stratified_random_75_25,Interpretable baseline,completed
+run_0002,GradientBoosting,stratified_random_75_25,Non-linear baseline challenger,completed
+run_0003,LogisticRegression,stratified_random_75_25,Policy simulation: threshold=0.35,completed

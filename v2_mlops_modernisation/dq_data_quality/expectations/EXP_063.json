@@ -1,0 +1,18 @@
+{
+  "expectation_id": "EXP_063",
+  "table": "fact_appointments",
+  "expectation_type": "expect_in_set",
+  "kwargs": {
+    "column": "lead_time_band",
+    "allowed_values": [
+      "0",
+      "1-2",
+      "3-7",
+      "8-14",
+      "15-30",
+      "31+"
+    ]
+  },
+  "severity": "low",
+  "description": "FACT lead_time_band must be standard."
+}

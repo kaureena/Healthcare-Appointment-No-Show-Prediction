@@ -1,0 +1,12 @@
+feature,feature_type,psi,status,reference_window,current_window
+lead_time_days,numeric,0.008324,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08
+clinic_id,categorical,0.005688,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08
+clinic_region,categorical,0.00367,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08
+age,numeric,0.003075,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08
+booking_channel,categorical,0.00231,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08
+predicted_no_show_proba,numeric,0.002249,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08
+deprivation_index,numeric,0.00154,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08
+risk_band,categorical,0.001485,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08
+age_band,categorical,0.001455,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08
+prior_no_show_count,numeric,0.000267,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08
+appointment_type,categorical,0.000182,OK,2025-12-01..2025-12-31,2026-02-01..2026-02-08

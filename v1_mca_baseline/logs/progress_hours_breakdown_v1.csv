@@ -1,0 +1,6 @@
+category,hours,examples
+PLAN,5.6,"scope, KPI selection, stakeholder framing"
+EDA,13.9,"EDA charts, segmentation, hypothesis testing"
+FE,9.3,"banding, encoding, cleaning"
+MODEL,10.7,"baseline training, evaluation"
+DOC,7.0,"reports, README, insight summary"

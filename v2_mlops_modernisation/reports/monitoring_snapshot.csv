@@ -1,0 +1,2 @@
+snapshot_time_utc,drift_alert_count,drift_warn_count,freshness_status,freshness_lag_days,api_p95_ms,api_error_rate
+2026-02-09T17:03:18.006827Z,0,0,OK,0,322.8,0.0144

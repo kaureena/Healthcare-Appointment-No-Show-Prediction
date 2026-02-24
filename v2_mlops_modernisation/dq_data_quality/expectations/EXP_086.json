@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_086",
+  "table": "dim_neighbourhood",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "lon",
+    "min": 70,
+    "max": 75
+  },
+  "severity": "low",
+  "description": "lon plausible range for synthetic region."
+}

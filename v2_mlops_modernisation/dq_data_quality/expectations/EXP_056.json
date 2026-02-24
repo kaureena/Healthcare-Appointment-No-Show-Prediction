@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_056",
+  "table": "fact_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "appointment_hour",
+    "min": 0,
+    "max": 23
+  },
+  "severity": "medium",
+  "description": "FACT appointment_hour must be 0-23."
+}

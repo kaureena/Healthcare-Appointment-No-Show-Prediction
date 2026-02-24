@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_066",
+  "table": "fact_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "chronic_conditions_count",
+    "min": 0,
+    "max": 5
+  },
+  "severity": "low",
+  "description": "FACT chronic_conditions_count must be 0-5."
+}

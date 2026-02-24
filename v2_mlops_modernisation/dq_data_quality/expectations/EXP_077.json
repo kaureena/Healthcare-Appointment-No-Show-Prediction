@@ -1,0 +1,15 @@
+{
+  "expectation_id": "EXP_077",
+  "table": "dim_clinic",
+  "expectation_type": "expect_required_columns",
+  "kwargs": {
+    "columns": [
+      "clinic_id",
+      "clinic_type",
+      "daily_capacity",
+      "clinic_region"
+    ]
+  },
+  "severity": "high",
+  "description": "dim_clinic must include master columns."
+}

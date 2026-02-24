@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_053",
+  "table": "fact_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "age",
+    "min": 0,
+    "max": 110
+  },
+  "severity": "high",
+  "description": "FACT age must be in [0,110]."
+}

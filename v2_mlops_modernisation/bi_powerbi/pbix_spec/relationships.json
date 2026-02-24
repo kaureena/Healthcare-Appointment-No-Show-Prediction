@@ -1,0 +1,24 @@
+{
+  "relationships": [
+    {
+      "from": "fact_appointments.patient_id",
+      "to": "dim_patient.patient_id",
+      "type": "many_to_one"
+    },
+    {
+      "from": "fact_appointments.clinic_id",
+      "to": "dim_clinic.clinic_id",
+      "type": "many_to_one"
+    },
+    {
+      "from": "fact_appointments.neighbourhood_id",
+      "to": "dim_neighbourhood.neighbourhood_id",
+      "type": "many_to_one"
+    },
+    {
+      "from": "fact_appointments.date_key",
+      "to": "dim_date.date_key",
+      "type": "many_to_one"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+flowchart LR
+  CUR[Curated Data] --> PSI[Drift PSI]
+  CUR --> SLA[Freshness SLA]
+  API[API Latency Samples] --> LAT[p95/p99 latency]
+  PSI --> A[Alerts]
+  SLA --> A
+  LAT --> A
+  A --> REG[alerts_register.csv]
+  PSI --> REP[drift_report.csv]
+  SLA --> SNAP[monitoring_snapshot.csv]

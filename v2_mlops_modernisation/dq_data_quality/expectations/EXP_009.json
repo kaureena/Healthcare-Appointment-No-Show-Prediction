@@ -1,0 +1,14 @@
+{
+  "expectation_id": "EXP_009",
+  "table": "raw_appointments",
+  "expectation_type": "expect_in_set",
+  "kwargs": {
+    "column": "gender",
+    "allowed_values": [
+      "F",
+      "M"
+    ]
+  },
+  "severity": "medium",
+  "description": "RAW gender must be in allowed set."
+}

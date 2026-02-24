@@ -1,0 +1,18 @@
+{
+  "expectation_id": "EXP_062",
+  "table": "fact_appointments",
+  "expectation_type": "expect_in_set",
+  "kwargs": {
+    "column": "age_band",
+    "allowed_values": [
+      "0-17",
+      "18-29",
+      "30-44",
+      "45-59",
+      "60-74",
+      "75+"
+    ]
+  },
+  "severity": "low",
+  "description": "FACT age_band must be standard."
+}

@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_076",
+  "table": "dim_patient",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "disability_rate",
+    "min": 0,
+    "max": 1
+  },
+  "severity": "low",
+  "description": "dim_patient disability_rate in [0,1]."
+}

@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_078",
+  "table": "dim_clinic",
+  "expectation_type": "expect_unique",
+  "kwargs": {
+    "columns": [
+      "clinic_id"
+    ]
+  },
+  "severity": "high",
+  "description": "dim_clinic unique clinic_id."
+}

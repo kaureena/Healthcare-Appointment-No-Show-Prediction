@@ -1,0 +1,14 @@
+{
+  "expectation_id": "EXP_030",
+  "table": "staged_appointments",
+  "expectation_type": "expect_in_set",
+  "kwargs": {
+    "column": "gender",
+    "allowed_values": [
+      "F",
+      "M"
+    ]
+  },
+  "severity": "medium",
+  "description": "STAGED gender must be allowed."
+}

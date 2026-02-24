@@ -1,0 +1,10 @@
+{
+  "expectation_id": "EXP_024",
+  "table": "staged_appointments",
+  "expectation_type": "expect_non_null",
+  "kwargs": {
+    "column": "lead_time_days"
+  },
+  "severity": "high",
+  "description": "STAGED lead_time_days should not be null."
+}

@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_080",
+  "table": "dim_clinic",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "daily_capacity",
+    "min": 50,
+    "max": 500
+  },
+  "severity": "medium",
+  "description": "dim_clinic daily_capacity plausible range."
+}

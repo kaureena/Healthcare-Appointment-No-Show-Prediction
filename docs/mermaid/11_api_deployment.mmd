@@ -1,0 +1,5 @@
+flowchart LR
+  DEV[Local Dev] --> IMG[Build Docker Image]
+  IMG --> REG[Container Registry]
+  REG --> DEP[Deploy to Environment]
+  DEP --> MON[Monitor latency/errors]

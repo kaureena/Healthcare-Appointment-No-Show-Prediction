@@ -1,0 +1,10 @@
+{
+  "expectation_id": "EXP_018",
+  "table": "staged_appointments",
+  "expectation_type": "expect_non_null",
+  "kwargs": {
+    "column": "patient_id"
+  },
+  "severity": "medium",
+  "description": "STAGED patient_id should not be null."
+}

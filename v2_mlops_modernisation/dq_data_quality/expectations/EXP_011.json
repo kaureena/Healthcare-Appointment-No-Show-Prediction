@@ -1,0 +1,16 @@
+{
+  "expectation_id": "EXP_011",
+  "table": "raw_appointments",
+  "expectation_type": "expect_in_set",
+  "kwargs": {
+    "column": "booking_channel",
+    "allowed_values": [
+      "Online",
+      "Phone",
+      "Walk-in",
+      "Referral"
+    ]
+  },
+  "severity": "medium",
+  "description": "RAW booking_channel must be in allowed set."
+}

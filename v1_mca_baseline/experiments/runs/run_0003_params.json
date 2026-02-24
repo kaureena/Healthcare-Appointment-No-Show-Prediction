@@ -1,0 +1,4 @@
+{
+  "model": "LogisticRegression",
+  "threshold": 0.35
+}

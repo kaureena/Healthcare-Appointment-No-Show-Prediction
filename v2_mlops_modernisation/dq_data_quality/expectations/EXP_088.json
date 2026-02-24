@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_088",
+  "table": "dim_date",
+  "expectation_type": "expect_unique",
+  "kwargs": {
+    "columns": [
+      "date_key"
+    ]
+  },
+  "severity": "high",
+  "description": "dim_date unique date_key."
+}

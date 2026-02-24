@@ -1,0 +1,22 @@
+{
+  "split_date": "2026-01-15",
+  "n_train": 43917,
+  "n_test": 10268,
+  "roc_auc": 0.6192125793480193,
+  "avg_precision": 0.4534946573762728,
+  "precision_at_0.5": 0.5376106194690266,
+  "recall_at_0.5": 0.13941480206540446,
+  "f1_at_0.5": 0.2214123006833713,
+  "confusion_matrix": [
+    [
+      6364,
+      418
+    ],
+    [
+      3000,
+      486
+    ]
+  ],
+  "model": "LogisticRegression(saga) + OneHotEncoder",
+  "generated_at_utc": "2026-02-09T16:59:17.279433Z"
+}

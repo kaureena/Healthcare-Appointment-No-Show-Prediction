@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_069",
+  "table": "fact_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "daily_capacity",
+    "min": 50,
+    "max": 500
+  },
+  "severity": "low",
+  "description": "FACT daily_capacity plausible range."
+}

@@ -1,0 +1,7 @@
+flowchart TB
+  PR[Pull Request] --> CI[GitHub Actions CI]
+  CI --> UNIT[Unit tests]
+  CI --> PIPE[Pipeline smoke run]
+  PIPE --> DQ[DQ checks]
+  PIPE --> TRAIN[Train quick model]
+  CI --> ART[Artifacts (reports)]

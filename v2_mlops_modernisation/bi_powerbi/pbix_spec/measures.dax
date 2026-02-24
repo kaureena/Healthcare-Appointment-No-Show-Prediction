@@ -1,0 +1,29 @@
+-- Measures catalogue (Power BI style) — synthetic demo
+
+Total Appointments :=
+COUNTROWS ( fact_appointments )
+
+Total No-Shows :=
+CALCULATE ( [Total Appointments], fact_appointments[no_show_label] = 1 )
+
+No-Show Rate :=
+DIVIDE ( [Total No-Shows], [Total Appointments] )
+
+Avg Lead Time (Days) :=
+AVERAGE ( fact_appointments[lead_time_days] )
+
+SMS Coverage :=
+AVERAGE ( fact_appointments[sms_reminder_sent] )
+
+High Risk Appointments :=
+CALCULATE ( [Total Appointments], fact_appointments[risk_band] IN { "High", "Critical" } )
+
+High Risk Rate :=
+DIVIDE ( [High Risk Appointments], [Total Appointments] )
+
+Avg Predicted Risk :=
+AVERAGE ( fact_appointments[predicted_no_show_proba] )
+
+Drift Alerts (Count) :=
+-- This would be sourced from monitoring tables in a full BI model
+BLANK()

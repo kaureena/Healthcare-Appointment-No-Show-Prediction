@@ -1,0 +1,44 @@
+{
+  "dataset_rows": 12000,
+  "no_show_rate": 0.341,
+  "models": [
+    {
+      "model": "LogisticRegression",
+      "roc_auc": 0.625,
+      "avg_precision": 0.466
+    },
+    {
+      "model": "GradientBoosting",
+      "roc_auc": 0.615,
+      "avg_precision": 0.45
+    }
+  ],
+  "best_model": "LogisticRegression",
+  "threshold_policy": [
+    {
+      "threshold": 0.5,
+      "precision": 0.56,
+      "recall": 0.159,
+      "f1": 0.248,
+      "accuracy": 0.671,
+      "predicted_outreach_rate": 9.7
+    },
+    {
+      "threshold": 0.35,
+      "precision": 0.439,
+      "recall": 0.561,
+      "f1": 0.492,
+      "accuracy": 0.605,
+      "predicted_outreach_rate": 43.63
+    },
+    {
+      "threshold": 0.25,
+      "precision": 0.373,
+      "recall": 0.847,
+      "f1": 0.518,
+      "accuracy": 0.463,
+      "predicted_outreach_rate": 77.33
+    }
+  ],
+  "generated_at": "2026-02-09T22:14:36"
+}

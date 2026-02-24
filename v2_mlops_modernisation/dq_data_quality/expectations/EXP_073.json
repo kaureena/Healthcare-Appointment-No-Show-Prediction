@@ -1,0 +1,14 @@
+{
+  "expectation_id": "EXP_073",
+  "table": "dim_patient",
+  "expectation_type": "expect_in_set",
+  "kwargs": {
+    "column": "gender",
+    "allowed_values": [
+      "F",
+      "M"
+    ]
+  },
+  "severity": "medium",
+  "description": "dim_patient gender allowed."
+}

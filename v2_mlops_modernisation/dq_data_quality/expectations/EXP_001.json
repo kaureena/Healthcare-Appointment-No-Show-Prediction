@@ -1,0 +1,19 @@
+{
+  "expectation_id": "EXP_001",
+  "table": "raw_appointments",
+  "expectation_type": "expect_required_columns",
+  "kwargs": {
+    "columns": [
+      "appointment_id",
+      "patient_id",
+      "clinic_id",
+      "neighbourhood_id",
+      "age",
+      "appointment_datetime",
+      "booking_datetime",
+      "no_show"
+    ]
+  },
+  "severity": "high",
+  "description": "RAW must have core columns for downstream staging."
+}

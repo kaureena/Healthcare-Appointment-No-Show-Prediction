@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_054",
+  "table": "fact_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "sms_reminder_sent",
+    "min": 0,
+    "max": 1
+  },
+  "severity": "high",
+  "description": "FACT sms_reminder_sent must be 0/1."
+}

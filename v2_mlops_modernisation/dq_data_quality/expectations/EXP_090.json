@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_090",
+  "table": "dim_date",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "week",
+    "min": 1,
+    "max": 53
+  },
+  "severity": "low",
+  "description": "dim_date week number 1-53."
+}

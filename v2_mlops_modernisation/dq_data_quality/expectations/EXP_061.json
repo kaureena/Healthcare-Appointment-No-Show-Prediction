@@ -1,0 +1,16 @@
+{
+  "expectation_id": "EXP_061",
+  "table": "fact_appointments",
+  "expectation_type": "expect_in_set",
+  "kwargs": {
+    "column": "appointment_type",
+    "allowed_values": [
+      "General",
+      "Specialist",
+      "Lab",
+      "Follow-up"
+    ]
+  },
+  "severity": "medium",
+  "description": "FACT appointment_type must be allowed."
+}

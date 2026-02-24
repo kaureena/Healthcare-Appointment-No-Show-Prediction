@@ -1,0 +1,8 @@
+flowchart TB
+  C[Curated Tables] --> R[Rule Pack (36 markdown rules)]
+  C --> E[Expectation Suite (90 JSON)]
+  R --> ENG[DQ Engine]
+  E --> ENG
+  ENG -->|Pass/Fail| SUM[dq_summary.json]
+  ENG --> HTML[dq_report.html]
+  ENG --> REG[DQ Issue Register CSV]

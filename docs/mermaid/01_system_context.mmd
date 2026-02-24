@@ -1,0 +1,9 @@
+flowchart TB
+  U[Ops / Clinic Manager] -->|Uses| BI[BI Dashboards]
+  DS[Data Engineer] -->|Runs ETL + DQ| ETL[Pipeline]
+  MLE[ML Engineer] -->|Trains + Monitors| MLOps[MLOps Layer]
+  ETL --> WH[(Warehouse)]
+  WH --> BI
+  WH --> MLOps
+  MLOps --> API[Inference API]
+  API -->|Risk scores| Ops[Outreach Worklist]

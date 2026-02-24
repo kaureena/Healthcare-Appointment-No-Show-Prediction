@@ -1,0 +1,8 @@
+flowchart LR
+    R[Raw sample] --> I[Interim clean]
+    I --> S[Staged dataset]
+    S --> FE[Feature extraction]
+    FE --> LR[Logistic Regression]
+    FE --> GB[Gradient Boosting]
+    LR --> EV[Metrics + calibration + lift]
+    GB --> EV

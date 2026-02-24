@@ -1,0 +1,5 @@
+{
+  "model": "LogisticRegression",
+  "max_iter": 400,
+  "solver": "saga"
+}

@@ -1,0 +1,4 @@
+issue_id,date,table,expectation_id,severity,description,status,notes
+DQ-0001,2026-02-09,raw_appointments,EXP_008,high,"Expectation failed: expect_between ({'out_of_range_count': 275, 'min': 0, 'max': 110})",Open,Fix upstream in ETL or adjust expectation if justified.
+DQ-0002,2026-02-09,raw_appointments,EXP_013,high,"Expectation failed: expect_in_set ({'invalid_count': 385, 'sample_invalid_values': ['N999', 'N999', 'N999', 'N999', 'N999']})",Open,Fix upstream in ETL or adjust expectation if justified.
+DQ-0003,2026-02-09,raw_appointments,EXP_014,high,Expectation failed: expect_unique ({'duplicate_rows': 219}),Open,Fix upstream in ETL or adjust expectation if justified.

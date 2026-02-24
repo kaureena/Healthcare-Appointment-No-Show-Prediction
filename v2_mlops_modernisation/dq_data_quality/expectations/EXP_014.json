@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_014",
+  "table": "raw_appointments",
+  "expectation_type": "expect_unique",
+  "kwargs": {
+    "columns": [
+      "appointment_id"
+    ]
+  },
+  "severity": "high",
+  "description": "RAW appointment_id should be unique (duplicates indicate upstream issues)."
+}

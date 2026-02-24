@@ -1,0 +1,12 @@
+{
+  "expectation_id": "EXP_055",
+  "table": "fact_appointments",
+  "expectation_type": "expect_between",
+  "kwargs": {
+    "column": "no_show_label",
+    "min": 0,
+    "max": 1
+  },
+  "severity": "high",
+  "description": "FACT no_show_label must be 0/1."
+}
